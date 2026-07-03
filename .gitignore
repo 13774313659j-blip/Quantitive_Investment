@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+*.egg
+
+# 虚拟环境
+venv/
+env/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# 大数据文件（运行时自动生成，不入库）
+data/price_data.csv
+data/fundamental_data.csv
+data/stock_pool.csv
+results/factors_raw.csv
+results/factors_processed.csv
+results/factor_layered_backtest.csv
+results/model_predictions.csv
+# 注意: 以下小结果文件保留入库，方便招聘方直接查看效果
+# results/factor_ic_summary.csv
+# results/factor_importance.csv
+# results/model_evaluation.csv
+# results/strategy_comparison.csv
+# results/portfolio_returns.csv
+
+# 操作系统
+.DS_Store
+Thumbs.db
